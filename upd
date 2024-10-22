@@ -1,0 +1,50 @@
+//// jshint esversion 6
+const express = require("express");
+const app = express();
+app.get("/", function(request, response){
+    response.send("<h1>hello</h1>");
+});
+app.get("/contact", function(request, response){
+    response.send("contact Sofia Noor Rafa at sofiautilitarian@gmail.com");
+});
+app.get("/about", function(request, response){
+    response.send("This is site is made by sofiautilitarian, Sofia Noor Rafa, Dhaka, BD");
+});
+app.get("/N1sarga", function(request, response){
+    response.send("Nisarga Mridha is terribly missed");
+});
+app.listen(3000, function(){
+    console.log("Listening to port 3000");
+});
+//...
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ node server.js
+Listening to port 3000
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ node server.js
+Listening to port 3000
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ npm install -g nodemon
+
+added 29 packages in 13s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ nodemon server.js
+[nodemon] 3.1.7
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Listening to port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Listening to port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Listening to port 3000
