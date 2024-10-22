@@ -1,3 +1,6 @@
-import {randomSuperhero} from 'superheroes';
+import uniqueRandom from 'unique-random';
 
-console.log(randomSuperhero());
+export default function uniqueRandomArray(array) {
+	const random = uniqueRandom(0, array.length - 1);
+	return () => array[random()];
+}
