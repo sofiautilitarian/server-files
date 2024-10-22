@@ -1,0 +1,109 @@
+user@Sofia-Hypothetical MINGW32 ~
+$ cd
+
+user@Sofia-Hypothetical MINGW32 ~
+$ ls
+ 1RHvwKQmejt                   HelloFX.iml                                                                                    ntuser.ini
+'3D Objects'/                 'Impostazioni locali'@                                                                          OneDrive/
+ AppData/                      IntelGraphicsProfiles/                                                                         Pictures/
+'Cisco Packet Tracer 8.2.1'/   Jedi/                                                                                          pom.xml
+ Contacts/                     Links/                                                                                         Recenti@
+ Cookies@                     'Menu Avvio'@                                                                                  'Risorse di rete'@
+'Dati applicazioni'@           Modelli@                                                                                      'Risorse di stampa'@
+ Desktop/                      Music/                                                                                        'Saved Games'/
+ Documenti@                    NTUSER.DAT                                                                                     Searches/
+ Documents/                    ntuser.dat.LOG1                                                                                SendTo@
+ Downloads/                    ntuser.dat.LOG2                                                                                src/
+ edm-gui-log0.txt              NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        Tracing/
+ edm-log0.txt                  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms   Videos/
+ Favorites/                    NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms  'VirtualBox VMs'/
+
+user@Sofia-Hypothetical MINGW32 ~
+$ mkdir my-express-js
+
+user@Sofia-Hypothetical MINGW32 ~
+$ ls
+ 1RHvwKQmejt                  'Impostazioni locali'@                                                                          OneDrive/
+'3D Objects'/                  IntelGraphicsProfiles/                                                                         Pictures/
+ AppData/                      Jedi/                                                                                          pom.xml
+'Cisco Packet Tracer 8.2.1'/   Links/                                                                                         Recenti@
+ Contacts/                    'Menu Avvio'@                                                                                  'Risorse di rete'@
+ Cookies@                      Modelli@                                                                                      'Risorse di stampa'@
+'Dati applicazioni'@           Music/                                                                                        'Saved Games'/
+ Desktop/                      my-express-js/                                                                                 Searches/
+ Documenti@                    NTUSER.DAT                                                                                     SendTo@
+ Documents/                    ntuser.dat.LOG1                                                                                src/
+ Downloads/                    ntuser.dat.LOG2                                                                                Tracing/
+ edm-gui-log0.txt              NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf                                        Videos/
+ edm-log0.txt                  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms  'VirtualBox VMs'/
+ Favorites/                    NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ HelloFX.iml                   ntuser.ini
+
+user@Sofia-Hypothetical MINGW32 ~
+$ cd my-express-js
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ touch server.js
+
+user@Sofia-Hypothetical MINGW32 ~/my-express-js
+$ npm init 
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (my-express) Express JS
+Sorry, name can only contain URL-friendly characters and name can no longer contain capital letters.
+package name: (my-express) expressJS
+Sorry, name can no longer contain capital letters.
+package name: (my-express) my-express-server
+version: (1.0.0)                                                                                                                                                  
+description: I store express js files here to create my own local server                                                                                          
+entry point: (server.js)                                                                                                                                          
+test command: ls                                                                                                                                                  
+git repository: https://github.com/sofiautilitarian/server-files/                                                                                                 
+keywords: Server, Express JS framework, Sofia Noor Rafa, local server files
+author: Sofia Noor Rafa                                                                                                                                           
+license: (ISC)                                                                                                                                                    
+About to write to C:\Users\158989\my-express-js\package.json:
+
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "I store express js files here to create my own local server",
+  "main": "server.js",
+  "scripts": {
+    "test": "ls",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiautilitarian/server-files.git"
+  },
+  "keywords": [
+    "Server",
+    "Express",
+    "JS",
+    "framework",
+    "Sofia",
+    "Noor",
+    "Rafa",
+    "local",
+    "server",
+    "files"
+  ],
+  "author": "Sofia Noor Rafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiautilitarian/server-files/issues"
+  },
+  "homepage": "https://github.com/sofiautilitarian/server-files#readme"
+}
+
+
+Is this OK? (yes)
