@@ -1,0 +1,16 @@
+{
+  "name": "downloads",
+  "version": "1.0.0",
+  "description": "using Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sofiautilitarian",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
